@@ -15,9 +15,7 @@ def main():
     driver.implicitly_wait(6)
     driver.get("https://admissions.msu.edu/academics/default.aspx")
     time.sleep(1)
-
-    # out = open('Pages.csv', 'w', encoding="utf-8")
-    # csv_f = csv.writer(out, dialect='word')
+    
     # print('file for pages created')
     print("-----------------------------")
     print("get page info from msu.edu...")
